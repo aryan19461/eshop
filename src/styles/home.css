@@ -1,0 +1,105 @@
+.hero__section {
+    background: rgb(116, 150, 205);
+}
+
+.hero__section h2 {
+    color: rgb(154, 219, 228);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero__section p {
+    color: rgb(0, 0, 0);
+    line-height: 28px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+Link {
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+}
+
+.buy__btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #7eb2e6;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.buy__btn a :hover {
+    color: aliceblue;
+}
+
+.hero__content {
+    padding-top: 45px;
+}
+
+.timer__count {
+    background: #9cbfe2;
+    height: 300px;
+}
+
+.timer__count img {
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+
+.store__btn {
+    font-weight: 600;
+}
+
+.store__btn a:hover {
+    color: antiquewhite;
+}
+
+@media only screen and (max-width: 992px) {
+    .hero__content h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero__content h2 {
+        font-size: 2rem;
+    }
+    .hero__content p {
+        font-size: 0.9rem;
+    }
+    .buy__btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero__content {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .service__item span i {
+        font-size: 1.8rem;
+        padding: 5px;
+    }
+    .service__item h3 {
+        font-size: 1.3rem;
+    }
+}

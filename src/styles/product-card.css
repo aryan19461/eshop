@@ -1,0 +1,32 @@
+.product__info h3 a {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.product__info span {
+    font-size: 0.9rem;
+}
+
+.product__info-bottom .price {
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.product__info-bottom span i {
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: rgb(108, 111, 206);
+    color: aliceblue;
+    border-radius: 50px;
+}
+
+.product__item {
+    cursor: pointer;
+}
+
+.product__info a:hover {
+    color: rgb(141, 145, 208);
+}

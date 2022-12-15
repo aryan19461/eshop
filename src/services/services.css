@@ -1,0 +1,31 @@
+.service__item {
+    padding: 20px;
+    background: rgb(163, 240, 200);
+    display: flex;
+    column-gap: 0.7rem;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.service__item span i {
+    font-size: 2.2rem;
+    background: rgb(107, 152, 194);
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400 !important;
+}
+
+.service__item p {
+    text-transform: capitalize;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+}
+
+.servicce__item h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+}
