@@ -1,0 +1,22 @@
+.bbilling__form .form__group {
+    border: 1px solid black;
+}
+.checkout__cart{
+    padding: 20px;
+    background:rgb(171, 173, 250);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.checkout__cart h6,h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkout__cart h6{
+    margin-bottom: 20px;
+}
+.checkout__cart h4{
+    padding-top: 20px;
+    border-top: 2px blue;
+}

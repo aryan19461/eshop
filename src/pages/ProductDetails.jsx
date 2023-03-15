@@ -63,6 +63,7 @@ const ProductDetails = () => {
     const reviewObj = {
       userName: reviewUserName,
       text: reviewUserMsg,
+      avgRating,
     };
     console.log(reviewObj);
     toast.success("Thank you for the review 👋");
@@ -163,7 +164,7 @@ const ProductDetails = () => {
                               ref={reviewUser}
                             />
                           </div>
-                          {/*  <div className="form__group">
+                           <div className="form__group">
                             <span>
                               1 <i class="fas fa-star"></i>
                             </span>
@@ -179,7 +180,7 @@ const ProductDetails = () => {
                             <span>
                               5<i className="fa-solid fa-star"></i>
                             </span>
-                          </div>*/}
+                          </div>
                           <div className="form__group">
                             <textarea
                               rows={5}
@@ -187,6 +188,7 @@ const ProductDetails = () => {
                               type="text"
                               placeholder="Review Message  "
                               ref={reviewMsg}
+                              required
                             />
                           </div>
                           <motion.button
