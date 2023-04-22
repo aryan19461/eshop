@@ -1,5 +1,5 @@
 .common__section {
-    background: linear-gradient(rgb(56, 118, 219), rgb(169, 197, 239)), url("../assets/images/common-section.jfif") no-repeat center center;
+    background: linear-gradient(rgb(56, 118, 219), rgb(169, 197, 239),rgb(223, 202, 246)), url("../assets/images/common-section.jfif") no-repeat center center;
     background-size: contain;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,11 +8,49 @@
     align-items: center;
     justify-content: center;
     padding: 88px 0px;
-    height: 300px;
+    height: 305px;
 }
 
 .common__section h1 {
-    color: #fff;
-    font-weight: 600;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 34px;
+    letter-spacing: 3.2px;
+    word-spacing: 5px;
+    color: #faffc6;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
     margin-left: 400px;
+    animation: myAnim 5s ease-in 0s infinite normal forwards;
+
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-3px) rotate(5deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
 }

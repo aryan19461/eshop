@@ -10,7 +10,7 @@ import { useDispatch } from "react-redux";
 import { cartActions } from "../redux/slices/cartSlice";
 import { motion } from "framer-motion";
 import { toast } from "react-toastify";
-
+import "../styles/review.css"
 const ProductDetails = () => {
   //setting descending order
   const [tab, setTab] = useState("desc");
@@ -18,7 +18,7 @@ const ProductDetails = () => {
   const reviewUser = useRef("");
   const reviewMsg = useRef("");
 
-  //subbmit working
+  //submit working
   const dispatch = useDispatch();
   const addToCart = () => {
     dispatch(
@@ -68,10 +68,26 @@ const ProductDetails = () => {
     console.log(reviewObj);
     toast.success("Thank you for the review 👋");
   };
+
+
+  //posting reviews
+  const[inputList , setInputList] = useState("");
+  const itemEvent = (event) => {
+    setInputList(event.target.value);
+  };
+  const[Items, setItems] = useState([]); //[] will tells its an array
+  const listofItems = (event) => {
+        setItems((oldItems)=>{
+          return[...oldItems, inputList]; // three dots or ... are the spread operator i.e data is spreaded
+        })
+  };
+
+
+
   return (
     <>
       <Helmet title={productName}>
-        <CommonSection />
+        <CommonSection  title= "View your Product" />
 
         <section className="pt-0">
           <Container>
@@ -107,7 +123,7 @@ const ProductDetails = () => {
                   <p className="mt-3">{shortDesc}</p>
                   <motion.button
                     whileTap={{ scale: 1.1 }}
-                    className="buy__btn"
+                    className="feed"
                     onClick={addToCart}
                   >
                     ADD TO BAG
@@ -133,7 +149,7 @@ const ProductDetails = () => {
                     className={`${tab === "rev" ? "active__tab" : ""}`}
                     onClick={() => setTab("rev")}
                   >
-                    Reviews ({reviews.length})
+                    Reviews
                   </h6>
                 </div>
 
@@ -145,46 +161,29 @@ const ProductDetails = () => {
                   <div className="product__review">
                     <div className="review__wrapper">
                       <ul>
-                        {reviews?.map((item, index) => (
-                          <li key={index} className="mb-4">
-                            <h6>Aryan</h6>
-                            <span>{item.rating} (❤️)</span>
-                            <p>{item.text}</p>
-                          </li>
-                        ))}
+                        <ol> 
+                      {/*  {inputList} */}
+                       { // storing the reviews in an empty array to show it later
+                        Items.map((itemval) => {
+                              return (
+                                <motion.div className="msgreview" >
+                                <li>
+                                {inputList}
+                                </li>
+                                </motion.div>)
+                        })
+                       } </ol>
                       </ul>
 
                       <div className="review__form">
-                        <h4>Leave your comment</h4>
+                        <h4>Leave your Anonymous comment</h4>
                         <form action="" onSubmit={submitHandler}>
-                          <div className="form__group">
-                            <input
-                              type="text"
-                              placeholder="Enter Name"
-                              ref={reviewUser}
-                            />
-                          </div>
-                           <div className="form__group">
-                            <span>
-                              1 <i class="fas fa-star"></i>
-                            </span>
-                            <span>
-                              2<i className="fa-solid fa-star"></i>
-                            </span>
-                            <span>
-                              3<i className="fa-solid fa-star"></i>
-                            </span>
-                            <span>
-                              4<i className="fa-solid fa-star"></i>
-                            </span>
-                            <span>
-                              5<i className="fa-solid fa-star"></i>
-                            </span>
-                          </div>
+                          
                           <div className="form__group">
                             <textarea
                               rows={5}
                               cols={120}
+                              onChange={itemEvent}
                               type="text"
                               placeholder="Review Message  "
                               ref={reviewMsg}
@@ -194,7 +193,8 @@ const ProductDetails = () => {
                           <motion.button
                             whileTap={{ scale: 1.1 }}
                             type="submit"
-                            className="buy__btn"
+                            onClick={listofItems}
+                            className="feed"
                           >
                             SUBMIT
                           </motion.button>

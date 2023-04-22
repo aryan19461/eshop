@@ -8,7 +8,7 @@ const Clock = () => {
 
   let interval;
   const countDown = () => {
-    const destination = new Date("January 30 , 2023").getTime();
+    const destination = new Date("January 30 , 2024").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const different = destination - now;

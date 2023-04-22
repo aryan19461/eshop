@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { Container, Row, Col, ListGroup, ListGroupItem } from "react-bootstrap";
+import { Container, Row, Col, ListGroup, ListGroupItem, Button } from "react-bootstrap";
 
 import { Link } from "react-router-dom";
 const Footer = () => {
@@ -102,6 +102,13 @@ const Footer = () => {
             </Col>
           </Row>
         </Container>
+       <Container>
+       <div className="frm_submit">
+            <Button className="feed"> 
+            <Link to="/review">Feedback for Better understanding </Link>
+            </Button>
+       </div>
+       </Container>
       </footer>
     </>
   );

@@ -27,6 +27,23 @@ import productImg22 from "../images/watch-04.jpg";
 import productImg23 from "../images/wireless-01.png";
 
 import productImg25 from "../images/wireless-03.png";
+import productImg26 from "../images/productImg26.webp";
+import productImg27 from "../images/productImg27.webp";
+import productImg28 from "../images/productImg28.webp";
+import productImg29 from "../images/productImg29.webp";
+import productImg30 from "../images/productImg30.webp";
+import productImg31 from "../images/productImg31.webp";
+import productImg32 from "../images/productImg32.webp";
+import productImg33 from "../images/productImg33.webp";
+import productImg34 from "../images/productImg34.webp";
+import productImg35 from "../images/productImg35.webp";
+import productImg36 from "../images/productImg36.webp";
+import productImg37 from "../images/productImg37.webp";
+import productImg38 from "../images/productImg38.webp";
+import productImg39 from "../images/productImg39.webp";
+import productImg40 from "../images/productImg40.webp";
+
+
 /*
 const products = [{
         "Product ID": 7631,
@@ -1062,9 +1079,9 @@ const products = [{
 
     {
         id: "22",
-        productName: "Beat EP Headphones",
+        productName: "Being Human Tshirts",
         imgUrl: productImg25,
-        category: "wireless",
+        category: "Fashion ",
         price: 199,
         shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
@@ -1079,5 +1096,290 @@ const products = [{
         ],
         avgRating: 4.8,
     },
+    {
+    id: "23",
+        productName: "Being Human Tshirts orange ",
+        imgUrl: productImg26,
+        category: "Fashion",
+        price: 193,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+            rating: 4.7,
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        }, ],
+        avgRating: 4.5,
+    },
+
+    {
+        id: "24",
+        productName: "BeingHuman Tshirt yellow",
+        imgUrl: productImg27,
+        category: "Fashion",
+        price: 253,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+
+    {
+        id: "25",
+        productName: "BeingHuman Tshirt Blue",
+        imgUrl: productImg28,
+        category: "Fashion",
+        price: 173,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "26",
+        productName: "BeingHuman Jeans Men ",
+        imgUrl: productImg29,
+        category: "Fashion",
+        price: 253,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.8,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "27",
+        productName: "BeingHuman Tshirt Women",
+        imgUrl: productImg30,
+        category: "Fashion",
+        price: 163,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+
+    {
+        id: "28",
+        productName: "BeingHuman Jeans women blue",
+        imgUrl: productImg31,
+        category: "Fashion",
+        price: 163,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+
+    {
+        id: "29",
+        productName: "BeingHuman Tshirt Black women",
+        imgUrl: productImg32,
+        category: "Fashion",
+        price: 163,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "30",
+        productName: "BeingHuman Tshirt Red Blood women",
+        imgUrl: productImg33,
+        category: "Fashion",
+        price: 99,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "31",
+        productName: "BeingHuman Shirt Men",
+        imgUrl: productImg34,
+        category: "Fashion",
+        price: 99,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "32",
+        productName: "BeingHuman Blue Jeans Men",
+        imgUrl: productImg35,
+        category: "Fashion",
+        price: 99,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "33",
+        productName: "BeingHuman Jeans Black Men",
+        imgUrl: productImg36,
+        category: "Fashion",
+        price: 99,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "34",
+        productName: "BeingHuman pink Tshirt women",
+        imgUrl: productImg37,
+        category: "Fashion",
+        price: 99,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "35",
+        productName: "BeingHuman Tshirt Red & Black women",
+        imgUrl: productImg38,
+        category: "Fashion",
+        price: 99,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "36",
+        productName: "BeingHuman Jeans black women",
+        imgUrl: productImg39,
+        category: "Fashion",
+        price: 99,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+    {
+        id: "37",
+        productName: "BeingHuman Tshirt Black women",
+        imgUrl: productImg40,
+        category: "Fashion",
+        price: 99,
+        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, ",
+        reviews: [{
+                rating: 4.6,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+            {
+                rating: 4.9,
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            },
+        ],
+        avgRating: 4.7,
+    },
+
 ];
 export default products;

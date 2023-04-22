@@ -6,9 +6,6 @@ import { NavLink, useNavigate } from "react-router-dom";
 import logo from "../../assets/images/eco-logo.png";
 import user_icon from "../../assets/images/user-icon.png";
 import { useSelector } from "react-redux";
-import useAuth from "../../custom-hooks/useAuth"
-
-
 
 const nav__links = [
   {
@@ -33,11 +30,6 @@ const Header = () => {
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
   //making menu items accessible in responsive state
   const menuRef = useRef(null);
-
-
-
-
-  
   const stickyHeaderFunc = () => {
     window.addEventListener("scroll", () => {
       if (
@@ -61,7 +53,7 @@ const Header = () => {
   };
   return (
     <>
-      <header className="sticky__header" ref={headerRef}>
+      <header className="sticky__header">
         <Container>
           <Row>
             <div className="nav__wrapper">

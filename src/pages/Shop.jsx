@@ -5,6 +5,7 @@ import "../styles/shop.css";
 import Helmet from "../components/Helmet/Helmet";
 import products from "../assets/data/products";
 import ProductsList from "../components/UI/ProductList";
+
 const Shop = () => {
   const [productsData, setProductsData] = useState(products);
   const handleFilter = (e) => {
@@ -13,6 +14,13 @@ const Shop = () => {
     if (filterValue === "sofa") {
       const filteredProducts = products.filter(
         (item) => item.category === "sofa"
+      );
+      setProductsData(filteredProducts);
+    }
+     // Fashion products filtered
+     if (filterValue === "Fashion") {
+      const filteredProducts = products.filter(
+        (item) => item.category === "Fashion"
       );
       setProductsData(filteredProducts);
     }
@@ -58,12 +66,13 @@ const Shop = () => {
   };
   return (
     <Helmet title="Shop">
-      <CommonSection title="Products" />
+      
+      <CommonSection title="VARIOUS PRODUCTS 🧥👚👖🎧⌚📱 " />
 
       <section>
         <Container>
           <Row>
-            <Col lg="3" md="3">
+            <Col lg="4" md="3">
               <div className="filter__widget">
                 <select onChange={handleFilter}>
                   <option>Filter by Category</option>
@@ -72,16 +81,7 @@ const Shop = () => {
                   <option value="chair">Chair</option>
                   <option value="watch">Watch</option>
                   <option value="wireless">Wireless</option>
-                </select>
-              </div>
-            </Col>
-
-            <Col lg="3" md="3">
-              <div className="filter__widget">
-                <select>
-                  <option>Sort by Category</option>
-                  <option value="ascending">Ascending</option>
-                  <option value="descending">Descending</option>
+                  <option value="Fashion">Fashion</option>
                 </select>
               </div>
             </Col>

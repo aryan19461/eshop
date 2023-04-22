@@ -12,16 +12,15 @@ import {auth} from "../firebase.config.js"
 import {storage} from "../firebase.config.js"
 import {toast} from "react-toastify"
 import { useNavigate } from "react-router-dom";
-import { Image } from "react-bootstrap";
 
 
 
 const Signup = () => {
 
     
-  const [username, setUsername] = useState();
-  const [email, setEmail] = useState();
-  const [password, setPassword] = useState();
+  const [username, setUsername] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
   
