@@ -70,16 +70,23 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    
   }
+
+a 
+{
+     color: inherit; 
+} 
+
   
   .feed:hover,
   .feed:focus-visible{
     --_p: 0px;
-    outline-color: var(--color);
+    outline-color: rgb(140, 168, 250);
     outline-offset: .05em;
   }
   
   .feed:active {
-    background: var(--color);
+    background: rgb(140, 168, 250);
     color: #fff;
   }

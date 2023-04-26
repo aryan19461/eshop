@@ -24,7 +24,10 @@
     padding-right: 10px;
     cursor: pointer;
 }
-
+a 
+{
+     color: inherit; 
+} 
 .search__box span {
     color: blue;
 }

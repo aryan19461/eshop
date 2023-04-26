@@ -22,7 +22,10 @@
     color: aliceblue;
     border-radius: 50px;
 }
-
+a 
+{
+     color: inherit; 
+} 
 .product__item {
     cursor: pointer;
 }

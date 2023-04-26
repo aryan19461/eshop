@@ -36,3 +36,7 @@ text-transform: none;
 -moz-box-shadow: 0px 0px 252px 0px rgba(99,177,255,0.9);
 box-shadow: 0px 0px 252px 0px rgba(99,177,255,0.9);
 }
+a 
+{
+     color: inherit; 
+} 

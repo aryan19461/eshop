@@ -20,7 +20,10 @@
     width: 1.5rem;
     height: 1.5rem;
 }
-
+a 
+{
+     color: inherit; 
+} 
 .logo h1 {
     font-size: 1.2rem;
     font-weight: 700;

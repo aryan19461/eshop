@@ -17,8 +17,7 @@ const Footer = () => {
                 </div>
               </div>
               <p className="footer_text mt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                maxime atque officia numquam necessitatibus quia?
+              "Shop your heart out with us! Our virtual shelves are stocked with the latest and greatest in fashion, tech, beauty, and more. From trendy must-haves to timeless classics, we've got everything you need to elevate your style game. With fast shipping, easy returns, and unbeatable prices, there's no better place to indulge in a little retail therapy. So what are you waiting for? Start browsing and treat yourself today!"
               </p>
             </Col>
 
@@ -77,7 +76,7 @@ const Footer = () => {
                     <span>
                       <i class="fa-sharp fa-solid fa-location-dot"></i>
                     </span>
-                    <p>123 Station subway</p>
+                    <p>New Delhi, Delhi </p>
                   </ListGroupItem>
 
                   <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-2">
